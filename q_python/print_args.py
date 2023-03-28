@@ -4,8 +4,8 @@
 # Aplique os seguintes parâmetros:
 
 
-def print_args(*args, **keyargs):
-    list = [*args, *keyargs.values()]
+def print_args(*args, **kwrgs):
+    list = [*args, *kwrgs.values()]
 
     for arg in list:
         print(arg)
